@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
+       <hea<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="materialize is a material design based mutipurpose responsive template">
-        <meta name="keywords" content="material design, card style, material template, portfolio, corporate, business, creative, agency">
-        <meta name="author" content="trendytheme.net">
 
+        <meta name="description" content="Website untuk penggalangan dana untuk membantu saudara-saudara kita yang kurang mampu - disponsori oleh Reliance Generation dan Pondok Pesantren Modern Al-Mizan "/>
+        <meta name="author" content="Muhammad Yana Mulyana"/>
+        <meta name="keywords" content="reliance, reliance generation"/>
+        <meta name="google-site-verification" content="FwIHncpsbqk2YdmcBSRXvmb_jL2AWRBf7y3wtyosEEw" />
+        <meta name="msvalidate.01" content="E417A73FEA992A2ED7E85DBC950ADCF1" />
+        <!-- meta fb -->
+        <meta property='og:locale' content='ID'/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://muhammadyana.web.id/"/>
+        <meta property="og:title" content="Website Donasi Penggalangan Dana"/>
+        <meta property="og:description" content="Website untuk penggalangan dana untuk membantu saudara-saudara kita yang kurang mampu - disponsori oleh Reliance Generation dan Pondok Pesantren Modern Al-Mizan "/>
+        <meta property="og:image" content="http://muhammadyana.web.id/reliance/assets/img/pre-school/bg-reliance.jpg"/>
+        <meta property="article:published_time" content="2017-03-27T12:19:49+00:00"/>
+        <meta property="article:modified_time" content="2017-03-28T00:29:53+00:00"/>
         <title>Login/Register</title>
 
         <!--  favicon -->
