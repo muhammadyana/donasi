@@ -18,7 +18,7 @@
         <meta property="og:image" content="http://muhammadyana.web.id/reliance/assets/img/pre-school/bg-reliance.jpg"/>
         <meta property="article:published_time" content="2017-03-27T12:19:49+00:00"/>
         <meta property="article:modified_time" content="2017-03-28T00:29:53+00:00"/>
-        <title>Login/Register</title>
+        <title>Login Akun untuk donasi</title>
 
         <!--  favicon -->
         <link rel="shortcut icon" href="assets/img/ico/favicon.png">
@@ -42,6 +42,7 @@
         <!-- shortcodes -->
         <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
         <link href="assets/css/shortcodes/login.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/loader.css">
         <!-- Style CSS -->
         <link href="style.css" rel="stylesheet">
 
@@ -120,13 +121,20 @@
 
 
         <!-- Preloader -->
-        <div id="preloader">
+        <!-- <div id="preloader">
           <div class="preloader-position"> 
             <img src="assets/img/logo-colored.png" alt="logo" >
             <div class="progress">
               <div class="indeterminate"></div>
             </div>
           </div>
+        </div> -->
+         <div class="preloader-background">
+            <div class="preloader-wrapper big active">
+                <div id="loader-wrapper">
+                    <div id="loader"></div>
+                </div>
+            </div>
         </div>
         <!-- End Preloader -->
 
@@ -142,7 +150,13 @@
         <script src="assets/js/imagesloaded.js"></script>
         <script src="assets/js/animated-headline.js"></script>
         <script src="assets/js/scripts.js"></script>
-
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.preloader-wrapper').fadeOut();
+                $('.preloader-background').delay(350).fadeOut('slow');
+            });
+            
+        </script>
         <script>
             $('.toggle').on('click', function() {
               $('.login-wrapper').stop().addClass('active');

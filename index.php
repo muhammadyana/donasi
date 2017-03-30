@@ -1,4 +1,3 @@
-
 <!-- 
 Website galang dana 
 author - Muhammad Yana Mulyana
@@ -55,6 +54,7 @@ Reliance Generation
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- shortcodes -->
         <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/loader.css">
         <!-- Style CSS -->
          <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/shortcodes/featured-box.css">
@@ -74,7 +74,7 @@ Reliance Generation
     </head>
 
     <body id="top" class="has-header-search">
-
+   
         <!--header start-->
         <header id="header" class="tt-nav transparent-header">
 
@@ -413,13 +413,11 @@ Reliance Generation
                           </a>
                       </div><!-- /.border-box -->
                   </div><!-- /.col-md-3 -->
-
                   <div class="col-md-3 col-sm-6">
                       
                   </div><!-- /.col-md-3 -->
                 </div><!-- /.row -->
               </div><!-- /.clients-grid -->
-
             </div><!-- /.container -->
         </section>
 
@@ -472,16 +470,22 @@ Reliance Generation
 
         
         <!-- Preloader -->
-        <div id="preloader">
+       <!--  <div id="preloader">
           <div class="preloader-position"> 
             <img src="assets/img/reliance-small.png" alt="logo" >
             <div class="progress">
               <div class="indeterminate"></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End Preloader --> 
-
+         <div class="preloader-background">
+            <div class="preloader-wrapper big active">
+                <div id="loader-wrapper">
+                    <div id="loader"></div>
+                </div>
+            </div>
+        </div>
 
         <!-- jQuery -->
         <script src="assets/js/jquery-2.1.3.min.js"></script>
@@ -500,6 +504,13 @@ Reliance Generation
         <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
         <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.preloader-wrapper').fadeOut();
+                $('.preloader-background').delay(350).fadeOut('slow');
+            });
+            
+        </script>
     </body>
   
 </html>
