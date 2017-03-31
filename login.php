@@ -56,7 +56,13 @@
     </head>
 
     <body>
-                
+        <div class="preloader-background">
+            <div class="preloader-wrapper big active">
+                <div id="loader-wrapper">
+                    <div id="loader"></div>
+                </div>
+            </div>
+        </div>   
 
         <section class="section-padding banner-wrapper login-alt banner-6 fullscreen-banner">
             <div class="container">
@@ -121,21 +127,8 @@
 
 
         <!-- Preloader -->
-        <!-- <div id="preloader">
-          <div class="preloader-position"> 
-            <img src="assets/img/logo-colored.png" alt="logo" >
-            <div class="progress">
-              <div class="indeterminate"></div>
-            </div>
-          </div>
-        </div> -->
-         <div class="preloader-background">
-            <div class="preloader-wrapper big active">
-                <div id="loader-wrapper">
-                    <div id="loader"></div>
-                </div>
-            </div>
-        </div>
+        
+
         <!-- End Preloader -->
 
         <!-- jQuery -->

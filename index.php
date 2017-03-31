@@ -112,15 +112,21 @@ Reliance Generation
             <div class="">
               <div class="container padding-top-120">
                 <div class="row">
-                    <div class="col-md-7 col-sm-12 col-xs-12 col-lg-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                         <h3 class="tt-headline clip is-full-width">
                         <!-- you can use "rotate-1", "letters type", "letters rotate-2", "letters rotate-3", "letters scale", "loading-bar", "slide", "clip is-full-width", "push" --> 
                         <p class="lead text-regular white-text" style="margin-bottom: 0px;">Galang dana online untuk</p>
                             <!-- <span>We'r </span> -->
                             <span class="tt-words-wrapper">
-                                <b class="is-visible">Panti Asuhan Assomadiyah</b>
-                                <b>Rumah Tahfidz dua'fa</b>
-                                <b>Beasiswa santri al-mizan</b>
+                                <b class="is-visible">Panti Asuhan</b>
+                                <b>Rumah Tahfidz</b>
+                                <b>Beasiswa </b>
+                                <b>Kaum dua'fa</b>
+                                <b>Korban Bencana</b>
+                                <b>Pembangunan Masjid</b>
+                                <b>Fasilitas Sekolah</b>
+                                <b>Bangun Desa</b>
+                                <b>air bersih</b>
                             </span>
                         </h3>
                         <p class="lead text-regular white-text">From Reliance to be Allegiance</p>
@@ -470,14 +476,7 @@ Reliance Generation
 
         
         <!-- Preloader -->
-       <!--  <div id="preloader">
-          <div class="preloader-position"> 
-            <img src="assets/img/reliance-small.png" alt="logo" >
-            <div class="progress">
-              <div class="indeterminate"></div>
-            </div>
-          </div>
-        </div> -->
+      
         <!-- End Preloader --> 
          <div class="preloader-background">
             <div class="preloader-wrapper big active">
