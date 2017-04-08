@@ -14,7 +14,7 @@
                 <!--mega menu start-->
                 <ul class="menuzord-menu pull-right light">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="" class="waves-effect waves-light">Donasi</a></li>
+                    <li><a href="donasi.php" class="waves-effect waves-light">Donasi</a></li>
                     <li><a href="login.php" class="waves-effect waves-light">Login</a></li>
                     <li><a href="login.php" class="waves-effect waves-light">Register</a></li>
                     <li><a href="" class="waves-effect waves-light">About Us</a></li>

@@ -168,7 +168,7 @@ Reliance Generation
                       <div class="blog-content">
                         <header class="entry-header-wrapper">
                           <div class="entry-header">
-                            <h2 class="entry-title"><a href="#">Bantu kami mendirikan asraa untuk Panti Asuhan Assomadiyah</a></h2>
+                            <h2 class="entry-title"><a href="#">Bantu kami mendirikan asrama untuk Panti Asuhan Assomadiyah</a></h2>
 
                             <div class="entry-meta">
                                 <ul class="list-inline">
