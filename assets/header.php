@@ -5,7 +5,7 @@
             <div id="materialize-menu" class="menuzord">
 
                 <!--logo start-->
-                <a href="index.html" class="logo-brand">
+                <a href="index.php" class="logo-brand">
                     <img class="logo-dark" src="assets/img/reliance-black.png" alt=""/>
                     <img class="logo-light" src="assets/img/reliance-long-white.png" alt=""/>
                 </a>
@@ -17,7 +17,7 @@
                     <li><a href="donasi.php" class="waves-effect waves-light">Donasi</a></li>
                     <li><a href="login.php" class="waves-effect waves-light">Login</a></li>
                     <li><a href="login.php" class="waves-effect waves-light">Register</a></li>
-                    <li><a href="" class="waves-effect waves-light">About Us</a></li>
+                    
                 </ul>
                 <!--mega menu end-->
 

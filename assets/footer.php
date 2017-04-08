@@ -32,10 +32,10 @@
     <div class="secondary-footer brand-bg darken-2 text-center">
         <div class="container">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Donasi</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Register</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="donasi.php">Donasi</a></li>
+              <li><a href="login.php">Login</a></li>
+              <li><a href="login.php">Register</a></li>
               <!-- <li><a href="#">Contact us</a></li> -->
             </ul>
         </div><!-- /.container -->

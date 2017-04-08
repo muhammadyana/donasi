@@ -25,7 +25,7 @@ Reliance Generation
         <meta property="article:published_time" content="2017-03-27T12:19:49+00:00"/>
         <meta property="article:modified_time" content="2017-03-28T00:29:53+00:00"/>
 
-        <title>Website Donasi Penggalangan Dana</title>
+        <title>Website Penggalangan Dana - Reliance Generation | Al-Mizan Islamic Boarding School</title>
 
         <!--  favicon -->
         <link rel="shortcut icon" href="assets/img/ico/favicon.png">
@@ -104,7 +104,7 @@ Reliance Generation
                         </h3>
                         <p class="lead text-regular white-text">From Reliance to be Allegiance</p>
                        
-                        <a href="#" class="btn btn-lg pink waves-effect waves-light">Donasi Sekarang</a>
+                        <a href="donasi.php" class="btn btn-lg pink waves-effect waves-light">Donasi Sekarang</a>
                     </div>
                 </div>  <!-- row -->
                 <br/>
@@ -162,13 +162,13 @@ Reliance Generation
                     <article class="post-wrapper">
                       
                       <div class="thumb-wrapper waves-effect waves-block waves-light">
-                        <a href="#"><img src="assets/img/pantiasuhan.jpg" class="img-responsive" alt="" ></a>
+                        <a href="donasi.php"><img src="assets/img/pantiasuhan.jpg" class="img-responsive" alt="" ></a>
                       </div><!-- .post-thumb -->
 
                       <div class="blog-content">
                         <header class="entry-header-wrapper">
                           <div class="entry-header">
-                            <h2 class="entry-title"><a href="#">Bantu kami mendirikan asrama untuk Panti Asuhan Assomadiyah</a></h2>
+                            <h2 class="entry-title"><a href="donasi.php">Bantu kami mendirikan asrama untuk Panti Asuhan Assomadiyah</a></h2>
 
                             <div class="entry-meta">
                                 <ul class="list-inline">
@@ -194,7 +194,7 @@ Reliance Generation
                                 <li><a href="#"><i class="fa fa-share-alt"></i> Share</a></li> -->
                                 <li>Dana Terkumpul</li>
                             </ul>
-                            <div class="readmore pull-right">Rp.10.000.000 </div>
+                            <div class="readmore pull-right">Rp. 0 </div>
                         </footer>
 
                       </div><!-- /.blog-content -->
@@ -297,7 +297,7 @@ Reliance Generation
                     <div class="text-center">
                         <h1 class="text-uppercase text-bold font-30">Jadilah Donatur</h1>
                         <p class=" text-bold font-20">Ratusan Orang Menunggu Bantuanmu,Bersedekah membuat kita semakin kaya </p>
-                        <a href="#" class="btn btn-lg pink waves-effect waves-light">Donasi Sekarang</a>
+                        <a href="donasi.php" class="btn btn-lg pink waves-effect waves-light">Donasi Sekarang</a>
                     </div>
               </div><!-- /.container -->
         </section>
@@ -388,7 +388,9 @@ Reliance Generation
                                 <h3 style="direction: rtl;">
                                 مَنْ فَطَرَ صَائِمًا كَانَ لَهُ مِثْلُ أَجْرِهِ غَيْرَ أَنَّهُ لَا يَنْقُصُ مِنْ أَجْرِ الصَائِمِ شَيْءٌ (رواه الترمذي وقال حديث حسن صحيح)
                                 </h3>
+                                <blockquote>
                                 “Barangsiapa yang memberi makanan berbuka bagi orang berpuasa, maka baginya pahala yang semisal orang yang berpuasa tersebut tanpa mengurangi pahala orang yang berpuasa tersebut sedikitpun.” (HR. At Tirmidzi, beliau berkata, “Hadits Hasan Shahih”)
+                                </blockquote>
                                 </p>
                               </div>
 
