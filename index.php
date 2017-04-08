@@ -76,34 +76,7 @@ Reliance Generation
     <body id="top" class="has-header-search">
    
         <!--header start-->
-        <header id="header" class="tt-nav transparent-header">
-
-            <div class="header-sticky light-header">
-
-                <div class="container">
-                    <div id="materialize-menu" class="menuzord">
-
-                        <!--logo start-->
-                        <a href="index.html" class="logo-brand">
-                            <img class="logo-dark" src="assets/img/reliance-black.png" alt=""/>
-                            <img class="logo-light" src="assets/img/reliance-long-white.png" alt=""/>
-                        </a>
-                        <!--logo end-->
-
-                        <!--mega menu start-->
-                        <ul class="menuzord-menu pull-right light">
-                            <li class="active"><a href="index.php">Home</a></li>
-                            <li><a href="" class="waves-effect waves-light">Donasi</a></li>
-                            <li><a href="login.php" class="waves-effect waves-light">Login</a></li>
-                            <li><a href="login.php" class="waves-effect waves-light">Register</a></li>
-                            <li><a href="" class="waves-effect waves-light">About Us</a></li>
-                        </ul>
-                        <!--mega menu end-->
-
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?PHP include "assets/header.php" ?>
         <!--header end-->
         
 
@@ -382,10 +355,10 @@ Reliance Generation
 
                           <li role="presentation" class="active"><a href="#icontab-1" class="waves-effect waves-light"  role="tab" data-toggle="tab"> <i class="material-icons">&#xE7FD;</i></a></li>
 
-                          <li role="presentation" ><a href="#icontab-2" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE3B7;</i></a></li>
+                          <li role="presentation" ><a href="#icontab-2" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE90F;</i></a></li>
 
-                          <li role="presentation"><a href="#icontab-3" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE53B;</i></a></li>
-                          <li role="presentation"><a href="#icontab-4" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE859;</i></a></li>
+                          <li role="presentation"><a href="#icontab-3" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE8E5;</i></a></li>
+                          
                         </ul>
                       </div>
 
@@ -411,12 +384,12 @@ Reliance Generation
                               <div class="col-md-12">
                                   <h2 class="text-bold mb-40">Dasar Pemikiran</h2>
                                   <p>Bulan Ramadhan telah tiba. Inilah bulan penuh berkah. Setiap muslim yang mendambakan rahmat dari Rabb-nya, merindukan maghfirah-Nya, dan berharap keberkahan dari-Nya, pasti akan bergembira menyambut tamu agung ini. Inilah bulan dimana kita dapat mengumpulkan sebanyak mungkin pahala dari Allah melalui berbagai amal shaleh yang telah Allah perintahkan.
-Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adalah momentum yang paling tepat untuk melakukannya. Karena dibulan ini, kita tidak hanya dapat meraih pahala dari amalan kita sendiri, tapi kita juga bisa melipatgandakannya dengan cara beramal untuk orang lain, sebagaimana sabda Rasulullah shallallahu alaihi wa sallam: 
-<h3 style="direction: rtl;">
-مَنْ فَطَرَ صَائِمًا كَانَ لَهُ مِثْلُ أَجْرِهِ غَيْرَ أَنَّهُ لَا يَنْقُصُ مِنْ أَجْرِ الصَائِمِ شَيْءٌ (رواه الترمذي وقال حديث حسن صحيح)
-</h3>
-“Barangsiapa yang memberi makanan berbuka bagi orang berpuasa, maka baginya pahala yang semisal orang yang berpuasa tersebut tanpa mengurangi pahala orang yang berpuasa tersebut sedikitpun.” (HR. At Tirmidzi, beliau berkata, “Hadits Hasan Shahih”)
-</p>
+                                  Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adalah momentum yang paling tepat untuk melakukannya. Karena dibulan ini, kita tidak hanya dapat meraih pahala dari amalan kita sendiri, tapi kita juga bisa melipatgandakannya dengan cara beramal untuk orang lain, sebagaimana sabda Rasulullah shallallahu alaihi wa sallam: 
+                                <h3 style="direction: rtl;">
+                                مَنْ فَطَرَ صَائِمًا كَانَ لَهُ مِثْلُ أَجْرِهِ غَيْرَ أَنَّهُ لَا يَنْقُصُ مِنْ أَجْرِ الصَائِمِ شَيْءٌ (رواه الترمذي وقال حديث حسن صحيح)
+                                </h3>
+                                “Barangsiapa yang memberi makanan berbuka bagi orang berpuasa, maka baginya pahala yang semisal orang yang berpuasa tersebut tanpa mengurangi pahala orang yang berpuasa tersebut sedikitpun.” (HR. At Tirmidzi, beliau berkata, “Hadits Hasan Shahih”)
+                                </p>
                               </div>
 
                              
@@ -425,29 +398,45 @@ Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adal
 
                           <div role="tabpanel" class="tab-pane fade" id="icontab-3">
                             <div class="row">
-                              <div class="col-md-6">
-                                  <h2 class="text-bold mb-40">What We Do</h2>
-                                  <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
-                              </div>
-
-                              <div class="col-md-6">
-                                  <img src="assets/img/idea.jpg" alt="" class="img-responsive">
+                              <div class="col-md-12">
+                                  <h2 class="text-bold mb-40">Tujuan Acara Ini</h2>
+                                    <div class="col-md-4 mb-30">
+                                        <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
+                                            <div class="icon mb-30">
+                                                <i class="material-icons brand-icon">&#xE7FB;</i>
+                                            </div>
+                                            <div class="desc">
+                                                <h2>Menyantuni Anak Yatim</h2>
+                                                <p>Sebagai makhluk sosial kita harus peduli dan saling menolong antar sesama ummat Muslim dan muslimat, salah satunya adalah dengan memberikan / menyantuni anak yatim piatu dan orang-orang yang kurang mampu</p>
+                                            </div>
+                                        </div><!-- /.featured-item -->
+                                    </div><!-- /.col-md-4 -->
+                                    <div class="col-md-4 mb-30">
+                                        <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
+                                            <div class="icon mb-30">
+                                                <i class="material-icons brand-icon">&#xE32A;</i>
+                                            </div>
+                                            <div class="desc">
+                                                <h2>Menjalin Silaturrahmi Antar Seksama</h2>
+                                                <p>Kullu Bani Aadama Ikhwan - Setiap keturunan nabi Adam AS adalah sodara, sudah menjadi kewajiban bagi kita untuk saling menjaga silaturrahmi antar seksama</p>
+                                            </div>
+                                        </div><!-- /.featured-item -->
+                                    </div><!-- /.col-md-4 -->
+                                    <div class="col-md-4 mb-30">
+                                        <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
+                                            <div class="icon mb-30">
+                                                <i class="material-icons brand-icon">&#xE32A;</i>
+                                            </div>
+                                            <div class="desc">
+                                                <h2>Menjadi fasilitas para donator untuk bersedekah</h2>
+                                                <p>Menjadi fasilitas para donator untuk bersedekah secara Online, terbuka dan accountable / setiap dana yang keluar akan kami laporkan melalui email.</p>
+                                            </div>
+                                        </div><!-- /.featured-item -->
+                                    </div><!-- /.col-md-4 -->
                               </div>
                             </div>
                           </div>
-                          
-                          <div role="tabpanel" class="tab-pane fade" id="icontab-4">
-                            <div class="row">
-                              <div class="col-md-6">
-                                  <h2 class="text-bold mb-40">Our Setps</h2>
-                                  <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
-                              </div>
-
-                              <div class="col-md-6">
-                                  <img src="assets/img/workstation2.jpg" alt="image" class="img-responsive">
-                              </div>
-                            </div>
-                          </div>
+                        
                         </div>
                       </div>
                       
@@ -469,7 +458,7 @@ Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adal
               <div class="row equal-height-row">
 
                   <div class="col-md-6 mb-30">
-                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
                         <div class="icon mb-30">
                             <i class="material-icons brand-icon">&#xE32A;</i>
                         </div>
@@ -482,7 +471,7 @@ Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adal
 
 
                   <div class="col-md-6 mb-30">
-                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
                         <div class="icon mb-30">
                             <i class="material-icons brand-icon">&#xE0BF;</i>
                         </div>
@@ -495,26 +484,26 @@ Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adal
 
 
                   <div class="col-md-6 mb-30">
-                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
                         <div class="icon mb-30">
                             <i class="material-icons brand-icon">&#xE323;</i>
                         </div>
                         <div class="desc">
                             <h2>Pemberian Donasi</h2>
-                            <p>Pemberian donasi dari dana yang telah dikumpulkan oleh para donatur baik melalui website maupun secara langsung. Semua penggunaan dana akan kami laporkan melalui email yang telah terdaftar pada website</p>
+                            <p>Pemberian donasi dari dana yang telah dikumpulkan oleh para donatur baik melalui website maupun secara langsung kepada Yayasan As-Somadiyah. <b> Semua penggunaan dana akan kami laporkan melalui email yang telah terdaftar pada website</b></p>
                         </div>
                     </div><!-- /.featured-item -->
                   </div><!-- /.col-md-4 -->
 
 
                   <div class="col-md-6">
-                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column z-depth-1">
                         <div class="icon mb-30">
                             <i class="material-icons brand-icon">&#xE32A;</i>
                         </div>
                         <div class="desc">
                             <h2>Santunan Anak Yatim</h2>
-                            <p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+                            <p>Pemberian donasi dari dana yang telah dikumpulkan oleh para donatur baik melalui website maupun secara langsung kepada Anak-anak yatim piatu. <b> Semua penggunaan dana akan kami laporkan melalui email yang telah terdaftar pada website</p>
                         </div>
                     </div><!-- /.featured-item -->
                   </div><!-- /.col-md-4 -->
@@ -587,49 +576,7 @@ Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adal
 
 
         <!--footer 4 start -->
-        <footer class="footer footer-four">
-            <div class="primary-footer brand-bg text-center">
-                <div class="container">
-
-                  <a href="#top" class="page-scroll btn-floating btn-large pink back-top waves-effect waves-light" data-section="#top">
-                    <i class="material-icons">&#xE316;</i>
-                  </a>
-
-                  <ul class="social-link tt-animate ltr mt-20">
-                    <li><a href="https://www.facebook.com/Pondok-Pesantren-Modern-Al-Mizan-771941819530556/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://instagram.com/reliancetagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                   
-                  </ul>
-
-                  <hr class="mt-15">
-
-                  <div class="row">
-                    <div class="col-md-12">
-                          <div class="footer-logo">
-                            <img src="assets/img/reliance-white.png" width="300" alt="">
-                          </div>
-
-                          <span class="copy-text">Copyright &copy; 2017 <a href="#">Reliance Generation</a> &nbsp; | &nbsp;  All Rights Reserved &nbsp; | &nbsp;  Designed By <a href="http://muhammadyana.web.id">Muhammad Yana Mulyana</a></span>
-                          <div class="footer-intro">
-                            <p>Reliance Generattion - Angkatan 2011 Pondok Pesantren Modern <a href="http://al-mizan.sch.id">Al-Mizan</a> Motto : From Reliance to be Allegiance</p>
-                          </div>
-                    </div><!-- /.col-md-12 -->
-                  </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.primary-footer -->
-
-            <div class="secondary-footer brand-bg darken-2 text-center">
-                <div class="container">
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Donasi</a></li>
-                      <li><a href="#">Login</a></li>
-                      <li><a href="#">Register</a></li>
-                      <!-- <li><a href="#">Contact us</a></li> -->
-                    </ul>
-                </div><!-- /.container -->
-            </div><!-- /.secondary-footer -->
-        </footer>
+        <?PHP include "assets/footer.php"; ?>
         <!--footer 4 end-->
 
         
