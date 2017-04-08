@@ -328,9 +328,9 @@ Reliance Generation
                     </div>
               </div><!-- /.container -->
         </section>
+        <hr/>
 
-
-        <section class="section-padding">
+        <section class="section-padding gray-bg">
             <div class="container">
               <div class="row">
                 <div class="col-md-7">
@@ -363,8 +363,166 @@ Reliance Generation
               </div><!-- /.row -->
             </div><!-- /.container -->
         </section>
+         <section class="section-padding">
+            <div class="container">
+
+              <div class="text-center mb-80">
+                  <h2 class="section-title text-uppercase">Siapa Kami</h2>
+                  <p class="section-sub">Reliance Generation Merupakan alumni Pondok Pesantren Modern <a href="http://al-mizan.sch.id">Al-Mizan</a> angkatan 2011, alumni-alumni kami sudah menyebar ke beberapa kota di Indonesia. Ada yang sudah kuliah maupun bekerja</p>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+
+                    <div class="icon-tab">
+
+                      <!-- Nav tabs -->
+                      <div class="text-center">
+                        <ul class="nav nav-pills" role="tablist">
+
+                          <li role="presentation" class="active"><a href="#icontab-1" class="waves-effect waves-light"  role="tab" data-toggle="tab"> <i class="material-icons">&#xE7FD;</i></a></li>
+
+                          <li role="presentation" ><a href="#icontab-2" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE3B7;</i></a></li>
+
+                          <li role="presentation"><a href="#icontab-3" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE53B;</i></a></li>
+                          <li role="presentation"><a href="#icontab-4" class="waves-effect waves-light" role="tab" data-toggle="tab"> <i class="material-icons">&#xE859;</i></a></li>
+                        </ul>
+                      </div>
+
+                      <!-- Tab panes -->
+                      <div class="panel-body mt-40">
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane fade in active" id="icontab-1">
+
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <h2 class="text-bold mb-40 justify">About us</h2>
+                                  <p>Reliance Generation Merupakan alumni Pondok Pesantren Modern <a href="http://al-mizan.sch.id">Al-Mizan</a> angkatan 2011, alumni-alumni kami sudah menyebar ke beberapa kota di Indonesia. Ada yang sudah kuliah maupun bekerja, Alhamdulillah pada Ramadhan tahun ini kami berkesempatan untuk mengadakan bakti sosial dan buka bersama dengan anak yatin piatu yang terletak di daerah Tangerang</p>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <img src="assets/img/reliance-small.png" alt="Reliance Generation" class="img-responsive">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div role="tabpanel" class="tab-pane fade in " id="icontab-2">
+                            <div class="row">
+                              <div class="col-md-12">
+                                  <h2 class="text-bold mb-40">Dasar Pemikiran</h2>
+                                  <p>Bulan Ramadhan telah tiba. Inilah bulan penuh berkah. Setiap muslim yang mendambakan rahmat dari Rabb-nya, merindukan maghfirah-Nya, dan berharap keberkahan dari-Nya, pasti akan bergembira menyambut tamu agung ini. Inilah bulan dimana kita dapat mengumpulkan sebanyak mungkin pahala dari Allah melalui berbagai amal shaleh yang telah Allah perintahkan.
+Jika kita cermat dan bersungguh-sungguh mencari pahala Allah, maka Ramadhan adalah momentum yang paling tepat untuk melakukannya. Karena dibulan ini, kita tidak hanya dapat meraih pahala dari amalan kita sendiri, tapi kita juga bisa melipatgandakannya dengan cara beramal untuk orang lain, sebagaimana sabda Rasulullah shallallahu alaihi wa sallam: 
+<h3 style="direction: rtl;">
+مَنْ فَطَرَ صَائِمًا كَانَ لَهُ مِثْلُ أَجْرِهِ غَيْرَ أَنَّهُ لَا يَنْقُصُ مِنْ أَجْرِ الصَائِمِ شَيْءٌ (رواه الترمذي وقال حديث حسن صحيح)
+</h3>
+“Barangsiapa yang memberi makanan berbuka bagi orang berpuasa, maka baginya pahala yang semisal orang yang berpuasa tersebut tanpa mengurangi pahala orang yang berpuasa tersebut sedikitpun.” (HR. At Tirmidzi, beliau berkata, “Hadits Hasan Shahih”)
+</p>
+                              </div>
+
+                             
+                            </div>
+                          </div>
+
+                          <div role="tabpanel" class="tab-pane fade" id="icontab-3">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <h2 class="text-bold mb-40">What We Do</h2>
+                                  <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <img src="assets/img/idea.jpg" alt="" class="img-responsive">
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div role="tabpanel" class="tab-pane fade" id="icontab-4">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <h2 class="text-bold mb-40">Our Setps</h2>
+                                  <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <img src="assets/img/workstation2.jpg" alt="image" class="img-responsive">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div><!-- /.icon-tab -->
+
+                </div><!-- /.col-md-12 -->
+              </div><!-- /.row -->
+
+            </div><!-- /.container -->
+        </section>
+        <section class="section-padding gray-bg">
+            <div class="container">
+
+              <div class="text-center mb-80">
+                  <h2 class="section-title text-uppercase">Agenda Kegiatan</h2>
+                  <p class="section-sub">Berikut agenda kegiatan yang akan dilaksanakan pada acara nanti di yayasan As-Somadiyah, Tangerang Banten</p>
+              </div>
+
+              <div class="row equal-height-row">
+
+                  <div class="col-md-6 mb-30">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                        <div class="icon mb-30">
+                            <i class="material-icons brand-icon">&#xE32A;</i>
+                        </div>
+                        <div class="desc">
+                            <h2>Iftor Jam'i</h2>
+                            <p>Buka puasa bersama dengan anak-anak yatim piatu di Yayasan As-Somadiyah dengan makanan dan minuman yang manis-manis</p>
+                        </div>
+                    </div><!-- /.featured-item -->
+                  </div><!-- /.col-md-4 -->
 
 
+                  <div class="col-md-6 mb-30">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                        <div class="icon mb-30">
+                            <i class="material-icons brand-icon">&#xE0BF;</i>
+                        </div>
+                        <div class="desc">
+                            <h2>Makan Bersama</h2>
+                            <p>Makan bersama setelah seharian penuh melaksanakan Ibadah Puasa Ramadhan dengan memberika catering kepada anak yatim piatu</p>
+                        </div>
+                    </div><!-- /.featured-item -->
+                  </div><!-- /.col-md-4 -->
+
+
+                  <div class="col-md-6 mb-30">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                        <div class="icon mb-30">
+                            <i class="material-icons brand-icon">&#xE323;</i>
+                        </div>
+                        <div class="desc">
+                            <h2>Pemberian Donasi</h2>
+                            <p>Pemberian donasi dari dana yang telah dikumpulkan oleh para donatur baik melalui website maupun secara langsung. Semua penggunaan dana akan kami laporkan melalui email yang telah terdaftar pada website</p>
+                        </div>
+                    </div><!-- /.featured-item -->
+                  </div><!-- /.col-md-4 -->
+
+
+                  <div class="col-md-6">
+                    <div class="featured-item border-box radius-4 hover brand-hover equal-height-column">
+                        <div class="icon mb-30">
+                            <i class="material-icons brand-icon">&#xE32A;</i>
+                        </div>
+                        <div class="desc">
+                            <h2>Santunan Anak Yatim</h2>
+                            <p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+                        </div>
+                    </div><!-- /.featured-item -->
+                  </div><!-- /.col-md-4 -->
+                  
+              </div><!-- /.row -->
+
+            </div><!-- /.container -->
+        </section>
         <section class="counter-section facts-two pre-banner-3 bg-fixed parallax-bg  overlay light-7" data-stellar-background-ratio="0.5">
               <div class="container">
                   <div class="row text-center">
