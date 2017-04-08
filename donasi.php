@@ -47,7 +47,7 @@ Reliance Generation
         <!-- animated-headline -->
         <link href="assets/css/animated-headline.css" rel="stylesheet">
         <!-- custom -->
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
         <!-- materialize -->
         <link href="assets/materialize/css/materialize.min.css" rel="stylesheet">
         <!-- Bootstrap -->
@@ -71,17 +71,20 @@ Reliance Generation
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
     </head>
 
     <body id="top" class="has-header-search">
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=306389116161265";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=306389116161265";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
         <!-- Top bar start-->
         <div class="top-bar light-blue visible-md visible-lg">
           <div class="container">
@@ -225,9 +228,16 @@ Reliance Generation
                             </form> -->
                             <h1 class="">Rp. 120.364.310</h1>
 
-                            <a href="" class="btn waves-effect waves-light pink btn-block">Donasi Sekarang</a>
-                            <a class="waves-effect waves-light btn btn-block mt-20" href="https://www.facebook.com/sharer/sharer.php?u=muhammadyana.web.id/reliance/" target="_top"><i class="fa fa-facebook"></i> Share Facebook</a>
+                            <a href="" class="btn waves-effect waves-light pink btn-block mb-20">Donasi Sekarang</a>
+                            
+                           <!--  <a class="waves-effect waves-light btn btn-block mt-20 share s_facebook " ><i class="fa fa-facebook"></i> Share Facebook</a>
+                            <div class="fb-share-button" data-href="http://muhammadyana.web.id/reliance/" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+                            <a class="waves-effect waves-light btn btn-block mt-20 fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmuhammadyana.web.id%2Freliance%2F&amp;src=sdkpreparse"><i class="fa fa-facebook"></i> Share Facebook</a>
+                            </div> -->
                             <div class="fb-share-button" data-href="http://muhammadyana.web.id/reliance/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmuhammadyana.web.id%2Freliance%2F&amp;src=sdkpreparse">Share</a></div>
+
+                            <a href="https://twitter.com/share" class="twitter-share-button btn-block" data-size="large" data-text="klik untuk donasi - BANTU KAMI MENDIRIKAN ASRAMA UNTUK PANTI ASUHAN ASSOMADIYAH" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                           
                           </div><!-- /.widget_search-->
 
 
@@ -259,154 +269,6 @@ Reliance Generation
                                 </div>
                             </div>  <!-- /author-info-wrapper -->
                           </div><!-- /.widget_tt_author_widget -->
-
-
-                          <div  class="widget widget_tt_popular_post">
-                            <div class="tt-popular-post border-bottom-tab">
-                                <!-- Nav tabs -->
-                                <ul class="nav nav-tabs">
-                                    <li class="active">
-                                        <a href="#tt-popular-post-tab1" data-toggle="tab" aria-expanded="true">Latest</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#tt-popular-post-tab2" data-toggle="tab" aria-expanded="false">Popular</a>
-                                    </li>
-                                </ul>
-
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <!-- latest post tab -->
-                                    <div id="tt-popular-post-tab1" class="tab-pane fade active in">
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-3.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">At the end of the day, or at the start of the day?</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-4.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">What never to tweet about</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-5.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">Men have become the tools of their tools.</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-                                      
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-1.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">Master the psychology of web design</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-2.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">CTC to showcase technology solutions at Sea A......</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                    </div>
-
-                                    <!-- popular post tab-->
-                                    <div id="tt-popular-post-tab2" class="tab-pane fade">
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-1.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">Master the psychology of web design</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-2.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">CTC to showcase technology solutions at Sea A......</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-3.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">At the end of the day, or at the start of the day?</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-4.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">What never to tweet about</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                      <div class="media">
-                                        <a class="media-left" href="#">
-                                          <img src="assets/img/blog/recent-thumb-5.jpg" alt="">
-                                        </a>
-
-                                        <div class="media-body">
-                                          <h4><a href="#">Men have become the tools of their tools.</a></h4>
-                                        </div> <!-- /.media-body -->
-                                      </div> <!-- /.media -->
-
-                                    </div>
-                                </div><!-- /.tab-content -->
-                            </div><!-- /.tt-popular-post -->
-                          </div><!-- /.widget_tt_popular_post -->
-
-                          <div class="widget widget_tt_twitter">
-                            <i class="fa fa-twitter"></i>
-                            <div id="twitter-gallery-feed">
-                              <div class="twitter-widget"></div> <!-- this div is required for carousel injected by javascript -->
-                              <!-- html code injected via javascript -->
-                            </div>
-
-                          </div><!-- /.widget_tt_twitter -->
-
-
-                          <div class="widget widget_tt_instafeed">
-                            <i class="fa fa-instagram"></i>
-                            <h3 class="widget-title">Instagram Photos</h3>
-
-                             <div id="myinstafeed">
-                               <!-- html code injected via javascript -->
-                             </div> 
-
-                          </div><!-- /.widget_tt_instafeed -->
         
                       </div><!-- /.tt-sidebar-wrapper -->
                     </div><!-- /.col-md-4 -->
@@ -423,13 +285,13 @@ Reliance Generation
         <!-- Preloader -->
       
         <!-- End Preloader --> 
-         <div class="preloader-background">
+        <!--  <div class="preloader-background">
             <div class="preloader-wrapper big active">
                 <div id="loader-wrapper">
                     <div id="loader"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- jQuery -->
         <script src="assets/js/jquery-2.1.3.min.js"></script>
@@ -448,12 +310,30 @@ Reliance Generation
         <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
         <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <script type="text/javascript" src="assets/js/SocialShare.min.js"></script>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script type="text/javascript">
             $(window).load(function() {
                 $('.preloader-wrapper').fadeOut();
                 $('.preloader-background').delay(350).fadeOut('slow');
             });
             
+        </script>
+         <script type="text/javascript">
+            $(document).ready(function(){
+                $('.share').ShareLink({
+                    title: 'Klik Untuk Donasi - BANTU KAMI MENDIRIKAN ASRAMA UNTUK PANTI ASUHAN ASSOMADIYAH',
+                    text: 'Bantu Panti Asuhan As-Somadiyah untuk meningkatkan kualitas pendidikan bagi Yatim Piatu. Ciptakan masa depan yatim piatu yang cerah hingga mengenyam pendidikan tingggi.',
+                    image: 'http://muhammadyana.web.id/reliance/assets/img/pantiasuhan.jpg',
+                    url: 'http://muhammadyana.web.id/reliance/'
+                });
+                $('.counter').ShareCounter({
+                    url: 'http://muhammadyana.web.id/reliance/', // url for which you want show like counter
+                    class_prefix: 'c_facebook', // optional class prefix for counter elements, default: 'c_'
+                    increment: true
+                });    
+
+            });
         </script>
     </body>
   
